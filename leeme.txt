@@ -1,0 +1,6 @@
+La estructura del proyecto se explica detalladamente en la bicatora. Además, la disposicion de los archivos es sencilla. 
+El proyecto está contenido en la carpeta FilmsProyect. Cabe destacar que el fichero de entrada es el login.html, dada la inexistencia de un index.html.
+El archivo de estilo se localiza en la carpeta llamada css dentro de FilmsProyect. 
+Los archivos de ayuda estan contenidos en una carpeta llamada Ayuda.
+
+El resto está explicado en el documento Bitacora.pdf.

@@ -1,0 +1,110 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT films (film)+>
+<!ATTLIST films
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT film (genre,director,filming_date,duration,film_production,
+                (resumen|summary),actors,awards)>
+<!ATTLIST film
+  xmlns CDATA #FIXED ''
+  title CDATA #REQUIRED>
+
+<!ELEMENT genre (#PCDATA)>
+<!ATTLIST genre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT director (name,surname,born)>
+<!ATTLIST director
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT filming_date (#PCDATA)>
+<!ATTLIST filming_date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT duration (#PCDATA)>
+<!ATTLIST duration
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT film_production (name,main_employees)>
+<!ATTLIST film_production
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT resumen (#PCDATA)>
+<!ATTLIST resumen
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT summary (#PCDATA)>
+<!ATTLIST summary
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT actors (actor)+>
+<!ATTLIST actors
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT awards (award)+>
+<!ATTLIST awards
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT born (#PCDATA)>
+<!ATTLIST born
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT main_employees ((name,surname,position)|employee+)>
+<!ATTLIST main_employees
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT actor (surname,date_birth,place_birth,photos,filmography)>
+<!ATTLIST actor
+  xmlns CDATA #FIXED ''
+  name NMTOKEN #REQUIRED>
+
+<!ELEMENT award (actor_name?,date)>
+<!ATTLIST award
+  xmlns CDATA #FIXED ''
+  name CDATA #REQUIRED>
+
+<!ELEMENT employee (name,surname,position)>
+<!ATTLIST employee
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date_birth (#PCDATA)>
+<!ATTLIST date_birth
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT place_birth (#PCDATA)>
+<!ATTLIST place_birth
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT photos (image)+>
+<!ATTLIST photos
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT filmography (#PCDATA)>
+<!ATTLIST filmography
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT actor_name (#PCDATA)>
+<!ATTLIST actor_name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT date (#PCDATA)>
+<!ATTLIST date
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+  xmlns CDATA #FIXED ''
+  url CDATA #REQUIRED>
+
+<!ELEMENT name (#PCDATA)>
+<!ATTLIST name
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT surname (#PCDATA)>
+<!ATTLIST surname
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT position (#PCDATA)>
+<!ATTLIST position
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cinemas SYSTEM "cines.dtd">
+<cinemas>
+    <cinema name="Cinesa de intu Asturias">
+        <company>Cinesa</company>
+        <num_Pictures_Theatre>
+            <num_Regular_Pictures_Theatres>14</num_Regular_Pictures_Theatres>
+            <num_3D_Pictures_Theatres>3</num_3D_Pictures_Theatres>
+        </num_Pictures_Theatre>
+        <location>
+            <longitude>-5.804771</longitude>
+            <latitude>43.389570</latitude>
+        </location>
+        <billboard>
+            <available_Movies>
+                <title>Cementerio de animales</title>
+                <age_Rating>+16</age_Rating>
+                <schedule>
+                    <hour>15:50</hour>
+                    <hour>22:35</hour>
+                </schedule>
+            </available_Movies>
+        </billboard>
+    </cinema>
+
+    <cinema name="Yelmo Cines">
+        <company>Yelmo</company>
+        <num_Pictures_Theatre>
+            <num_Regular_Pictures_Theatres>11</num_Regular_Pictures_Theatres>
+            <num_3D_Pictures_Theatres>2</num_3D_Pictures_Theatres>
+        </num_Pictures_Theatre>
+        <location>
+            <longitude>-5.697158</longitude>
+            <latitude>43.535785</latitude>
+        </location>
+        <billboard>
+            <available_Movies>
+                <title>Vengadores: Endgame</title>
+                <age_Rating>+13</age_Rating>
+                <schedule>
+                    <hour>16:00</hour>
+                    <hour>17:00</hour>
+                    <hour>20:00</hour>
+                </schedule>
+            </available_Movies>
+        </billboard>
+    </cinema>
+
+</cinemas>

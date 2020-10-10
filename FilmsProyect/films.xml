@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE films SYSTEM "films.dtd">
+<?xml-stylesheet type="text/xsl" href="premios.xsl"?>
+<films>
+  <film title ="Los vengadores">
+    <genre>Action</genre>
+    <director>
+      <name>Joss</name>
+      <surname>Whedon</surname>
+      <born>New York, US</born>
+    </director>
+    <filming_date>July 2010</filming_date>
+    <duration>143 minutes</duration>
+    <film_production>
+      <name>Marvel Studios</name>
+      <main_employees>
+        <name>Kevin</name>
+        <surname>Feige</surname>
+        <position>Producer</position>
+      </main_employees>
+    </film_production>
+    <summary>American superhero film based on the Marvel Comics superhero team </summary>
+    <actors>
+      <actor name="Robert">
+        <surname>John Downey Jr.</surname>
+        <date_birth>April 4, 1965</date_birth>
+        <place_birth>New York</place_birth>
+        <photos>
+          <image url="https://en.wikipedia.org/wiki/Robert_Downey_Jr.#/media/File:Robert_Downey_Jr_2014_Comic_Con_(cropped).jpg"></image>
+          <image url="https://revistadiners.com.co/wp-content/uploads/2019/04/robertdowneyjr_800x669.jpg"></image>
+          <image url="http://www.californiamuseum.org/sites/main/files/imagecache/lightbox/main-images/robertdowneyjr_cahalloffameinductee.png"></image>
+        </photos>
+        <filmography>Iron Man, The Avengers, Sherlock Holmes</filmography>
+      </actor>
+
+      <actor name="Chris">
+        <surname>Evans</surname>
+        <date_birth>June 13, 1981</date_birth>
+        <place_birth>Boston, US</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/5_Dec._2016_CJCS_USO_Holiday_Tour_-_Incirlik_Air_Base_161205-D-PB383-044_%2831430825446%29_%28cropped%29_%28cropped%29.jpg/330px-5_Dec._2016_CJCS_USO_Holiday_Tour_-_Incirlik_Air_Base_161205-D-PB383-044_%2831430825446%29_%28cropped%29_%28cropped%29.jpg"></image>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Chris_Evans_-_Captain_America_2_press_conference_%28cropped%29.jpg/255px-Chris_Evans_-_Captain_America_2_press_conference_%28cropped%29.jpg"></image>
+          <image url="https://telefuturo.com.py/system/news_images/images/000/018/478/big/chris-evans.jpg?1556569128"></image>
+        </photos>
+        <filmography>Fantastic Four, Captain America, The Avengers</filmography>
+      </actor>
+
+      <actor name="Mark">
+        <surname>Ruffalo</surname>
+        <date_birth>November 22, 1967</date_birth>
+        <place_birth>Kenosha, Wisconsin</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg/330px-Mark_Ruffalo_in_2017_by_Gage_Skidmore.jpg"></image>
+          <image url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQDESZ3RR_u9vgBRVX5s-UAdJirPlyz1RqcbTg-nUg2246v5VC"></image>
+          <image url="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FiCS0MRHgLJ22FloX3jPxLNFKEzR9JQiN3Qrro7dG4g4bJxSlg"></image>
+        </photos>
+        <filmography>Zodiac, Blindness, The Avengers</filmography>
+      </actor>
+
+      <actor name="Chris">
+        <surname>Hemsworth</surname>
+        <date_birth>11 August 1983</date_birth>
+        <place_birth>	Phillip Island, Victoria, Australia</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Chris_Hemsworth_by_Gage_Skidmore.jpg/330px-Chris_Hemsworth_by_Gage_Skidmore.jpg"></image>
+          <image url="https://heroichollywood.com/wp-content/uploads/2019/03/Avengers_Endgame_Chris_Hemsworth_Thor.jpg"></image>
+          <image url="https://i.pinimg.com/236x/e1/77/e1/e177e1a64164cbe07a277a6f4d1de605.jpg"></image>
+        </photos>
+        <filmography>Thor, The Avengers, Men in Black</filmography>
+      </actor>
+
+      <actor name="Scarlett">
+        <surname>Johansson</surname>
+        <date_birth>November 22, 1984</date_birth>
+        <place_birth>New York, US</place_birth>
+        <photos>
+          <image url="https://www.hola.com/imagenes/belleza/caraycuerpo/20190308138623/fitness-entrenamiento-scarlett-johansson-adaptar-horario-mc/0-656-376/scarlet-johansson-en-forma-m.jpg?interpolation=lanczos-normal&amp;downsize=0.75xw:*&amp;output-format=progressive-jpeg&amp;output-quality=70"></image>
+          <image url="https://ep01.epimg.net/elpais/imagenes/2017/02/15/estilo/1487163010_132182_1487163367_noticia_normal.jpg"></image>
+          <image url="https://specials-images.forbesimg.com/imageserve/5b44fc1ea7ea4341970e27fd/416x416.jpg?background=000000&amp;cropX1=1516&amp;cropX2=4451&amp;cropY1=156&amp;cropY2=3092"></image>
+        </photos>
+        <filmography>Lucy, The Avengers, Ghost in the shell</filmography>
+      </actor>
+
+      <actor name="Jeremy">
+        <surname>Renner</surname>
+        <date_birth>January 7, 1971</date_birth>
+        <place_birth>Modesto, California, US</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jeremy_Renner_SDCC_2014_crop.jpg/330px-Jeremy_Renner_SDCC_2014_crop.jpg"></image>
+          <image url="https://pixel.nymag.com/imgs/daily/vulture/2017/04/17/17-jermey-renner.w700.h700.jpg"></image>
+          <image url="https://vignette.wikia.nocookie.net/avengers-infinity-war-parte-1-y-2/images/0/0b/Jeremy-Renner.jpg/revision/latest?cb=20180225182013&amp;path-prefix=es"></image>
+        </photos>
+        <filmography>The Avengers, Tag, The Town</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Mejor Actor">
+        <actor_name>Robert Downey Jr.</actor_name>
+        <date>2013</date>
+      </award>
+
+      <award name="Mejor Actor de Accion">
+        <actor_name>Chris Hemsworth</actor_name>
+        <date>2013</date>
+      </award>
+
+      <award name="Superheroe Favorito de la Pelicula">
+        <actor_name>Robert Downey Jr.</actor_name>
+        <date>2013</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="Titanic">
+    <genre>Drama</genre>
+    <director>
+      <name>James</name>
+      <surname>Cameron</surname>
+      <born> Kapuskasing, Canada</born>
+    </director>
+    <filming_date>September 1996</filming_date>
+    <duration>195 min</duration>
+    <film_production>
+      <name>Fox</name>
+      <main_employees>
+        <employee>
+          <name>James</name>
+          <surname>Cameron</surname>
+          <position>Director</position>
+        </employee>
+
+        <employee>
+          <name>Jon</name>
+          <surname>Landau</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <resumen>American epic romance and disaster film. It narrates the story of members of different social classes who fall in love aboard the ship during its ill-fated maiden voyage.</resumen>
+    <actors>
+      <actor name="Leonardo">
+        <surname>Di Caprio</surname>
+        <date_birth>November 11, 1974</date_birth>
+        <place_birth>Los Angeles, California, U.S.</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Leonardo_DiCaprio_visited_Goddard_Saturday_to_discuss_Earth_science_with_Piers_Sellers_%2826105091624%29_cropped.jpg/330px-Leonardo_DiCaprio_visited_Goddard_Saturday_to_discuss_Earth_science_with_Piers_Sellers_%2826105091624%29_cropped.jpg"></image>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Leonardo_DiCaprio_October_2016.jpg/220px-Leonardo_DiCaprio_October_2016.jpg"></image>
+          <image url="https://www.rollingstone.com/wp-content/uploads/2018/06/rs-196159-102997242.jpg?crop=900:600&amp;width=440"></image>
+        </photos>
+        <filmography>Poison Ivy, Titanic, The Wolf of Wall Street</filmography>
+      </actor>
+
+      <actor name="Kate">
+        <surname>Winslet</surname>
+        <date_birth>5 October, 1975</date_birth>
+        <place_birth>Reading, Berkshire, England</place_birth>
+        <photos>
+          <image url="https://www.lecturas.com/medio/2017/07/28/kate-winslet_cba91129_800x490.jpg"></image>
+          <image url="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/kate-winslet-winner-of-the-dilys-powell-award-for-news-photo-911471296-1555514211.jpg?crop=1.00xw:0.672xh;0,0&amp;resize=480:*"></image>
+          <image url="https://ewedit.files.wordpress.com/2017/12/mcdtita_fe018.jpg"></image>
+        </photos>
+        <filmography>Titanic, The Reader, Divergent</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Oscar a la mejor pelicula">
+        <date>1998</date>
+      </award>
+
+      <award name="Oscar al mejor director">
+        <actor_name>James Cameron</actor_name>
+        <date>1998</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="Iron Man 3">
+    <genre>Action</genre>
+    <director>
+      <name>Shane</name>
+      <surname>Black</surname>
+      <born>Pittsburgh, Pensilvania, Estados Unidos</born>
+    </director>
+    <filming_date>May 23, 2012</filming_date>
+    <duration>131 min</duration>
+    <film_production>
+      <name>Marvel Studios</name>
+      <main_employees>
+        <employee>
+          <name>Kevin</name>
+          <surname>Feige</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>American superhero film based on the Marvel Comics character Iron Man</summary>
+    <actors>
+      <actor name="Robert">
+        <surname>John Downey Jr.</surname>
+        <date_birth>April 4, 1965</date_birth>
+        <place_birth>New York</place_birth>
+        <photos>
+          <image url="https://en.wikipedia.org/wiki/Robert_Downey_Jr.#/media/File:Robert_Downey_Jr_2014_Comic_Con_(cropped).jpg"></image>
+          <image url="https://revistadiners.com.co/wp-content/uploads/2019/04/robertdowneyjr_800x669.jpg"></image>
+          <image url="http://www.californiamuseum.org/sites/main/files/imagecache/lightbox/main-images/robertdowneyjr_cahalloffameinductee.png"></image>
+        </photos>
+        <filmography>Iron Man, The Avengers, Sherlock Holmes</filmography>
+      </actor>
+
+      <actor name="Gwyneth">
+        <surname>Paltrow</surname>
+        <date_birth>September 27, 1972</date_birth>
+        <place_birth>Los Angeles, California, U.S.</place_birth>
+        <photos>
+          <image url="http://as01.epimg.net/tikitakas/imagenes/2018/09/27/portada/1538038706_784572_1538039114_noticia_normal.jpg"></image>
+          <image url="https://casamartinez.net/wp-content/uploads/2019/02/gwyneth-paltrow.jpg"></image>
+          <image url="https://images.wsj.net/im-40327/IM"></image>
+        </photos>
+        <filmography>Shakespeare in Love, Iron Man, Mortdecai</filmography>
+      </actor>
+
+      <actor name="Don">
+        <surname>Cheadle</surname>
+        <date_birth>November 29, 1964</date_birth>
+        <place_birth>Kansas City</place_birth>
+        <photos>
+          <image url="https://media.vandalsports.com/i/640x360/1-2019/20191189258_1.jpg"></image>
+          <image url="https://m.media-amazon.com/images/M/MV5BNDMxNDM3MzY5N15BMl5BanBnXkFtZTcwMjkzOTY4MQ@@._V1_UY317_CR17,0,214,317_AL_.jpg"></image>
+          <image url="https://cdn.aarp.net/content/dam/aarp/entertainment/television/2019/02/1140-don-cheadle-snl.imgcache.rev9a3afd8e987451b61c35d56d5a2795c9.jpg"></image>
+        </photos>
+        <filmography>The Avengers, Iron Man, Volcano</filmography>
+      </actor>
+
+      <actor name="Ben">
+        <surname>Kingsley</surname>
+        <date_birth>December 31, 1943</date_birth>
+        <place_birth>Scarborough, Yorkshire, England</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Ben_Kingsley_by_Gage_Skidmore.jpg/220px-Ben_Kingsley_by_Gage_Skidmore.jpg"></image>
+          <image url="https://impresa.prensa.com/vivir/britanico-Ben-Kingsley-Oscar-Gandhi_LPRIMA20180829_0068_27.jpg"></image>
+          <image url="https://www.dw.com/image/46874875_303.jpg"></image>
+        </photos>
+        <filmography>Gandhi, Oliver Twist, Iron Man</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Premios Trailer Dorado">
+        <date>2013</date>
+      </award>
+
+      <award name="Mejor Actor">
+        <actor_name>Brian Tyler</actor_name>
+        <date>2013</date>
+      </award>
+
+      <award name="Mejor Actor de Accion">
+        <actor_name>Robert Downey Jr.</actor_name>
+        <date>2014</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="En busca de la felicidad">
+    <genre>Drama</genre>
+    <director>
+      <name>Gabriele</name>
+      <surname>Muccino</surname>
+      <born>Rome, Italy</born>
+    </director>
+    <filming_date>May, 2005</filming_date>
+    <duration>117 min</duration>
+    <film_production>
+      <name>Paul Mardi</name>
+      <main_employees>
+        <employee>
+          <name>Will</name>
+          <surname>Smith</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>American biographical drama film based on entrepreneur Chris Gardner's nearly one-year struggle being homeless.</summary>
+    <actors>
+      <actor name="Will">
+        <surname>Smith</surname>
+        <date_birth>September 25, 1968</date_birth>
+        <place_birth>Philadelphia, Pennsylvania, U.S.</place_birth>
+        <photos>
+          <image url="http://wrmx00.epimg.net/radio/imagenes/2019/04/17/entretenimiento/1555532120_755052_1555532284_noticia_normal.jpg"></image>
+          <image url="https://media.canalnet.tv/2018/09/Will-Smith-974x550.jpg"></image>
+          <image url="http://es.web.img3.acsta.net/r_1280_720/pictures/17/02/08/16/50/452749.jpg"></image>
+        </photos>
+        <filmography>Independence Day, Men in Black, The Pursuit of Happyness</filmography>
+      </actor>
+
+      <actor name="Jaden">
+        <surname>Smith</surname>
+        <date_birth>July 8, 1998</date_birth>
+        <place_birth>Malibu, California, U.S.</place_birth>
+        <photos>
+          <image url="https://files.lafm.com.co/assets/public/styles/image_631x369/public/2019-05/jaden_smith_0.jpg?itok=BPb0kTZp"></image>
+          <image url="https://communities-wcmimages-cache.prod.postmedia.digital/images?url=https://postmediacanoe.files.wordpress.com/2019/05/gettyimages-1140033623-e1556739547546.jpg&amp;w=840&amp;h=630"></image>
+          <image url="https://www.google.es/url?sa=i&amp;source=images&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwj48pf8_IniAhWk8uAKHX-oB2sQjRx6BAgBEAU&amp;url=https%3A%2F%2Fcaracol.com.co%2Fradio%2F2018%2F11%2F14%2Fentretenimiento%2F1542207808_319818.html&amp;psig=AOvVaw3yPEu2RhpWHL_F7rcIaBK6&amp;ust=1557337618506388"></image>
+        </photos>
+        <filmography>Men in Black, The Karate Kid, The Pursuit of Happyness</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Pelicula del año">
+        <date>2006</date>
+      </award>
+
+      <award name="Pelicula exitosa">
+        <date>2007</date>
+      </award>
+
+      <award name="Mejor Actor dramático">
+        <actor_name>Will Smith</actor_name>
+        <date>2007</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="Soy Leyenda">
+    <genre>Drama</genre>
+    <director>
+      <name>Francis</name>
+      <surname>Lawrence</surname>
+      <born>Viena</born>
+    </director>
+    <filming_date>2006</filming_date>
+    <duration>104 min</duration>
+    <film_production>
+      <name>Warner Bros</name>
+      <main_employees>
+        <employee>
+          <name>Akiva</name>
+          <surname>Goldsman</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>David</name>
+          <surname>Heyman</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>James</name>
+          <surname>Lassiter</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Neal</name>
+          <surname> H. Moritz</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>Years after a plague kills most of humanity and transforms the rest into monsters, the sole survivor in New York City struggles valiantly to find a cure.</summary>
+    <actors>
+      <actor name="Will">
+        <surname>Smith</surname>
+        <date_birth>September 25, 1968</date_birth>
+        <place_birth>Philadelphia, Pennsylvania, U.S.</place_birth>
+        <photos>
+          <image url="http://wrmx00.epimg.net/radio/imagenes/2019/04/17/entretenimiento/1555532120_755052_1555532284_noticia_normal.jpg"></image>
+          <image url="https://media.canalnet.tv/2018/09/Will-Smith-974x550.jpg"></image>
+          <image url="http://es.web.img3.acsta.net/r_1280_720/pictures/17/02/08/16/50/452749.jpg"></image>
+        </photos>
+        <filmography>Independence Day, Men in Black, The Pursuit of Happyness</filmography>
+      </actor>
+
+      <actor name="Alice">
+        <surname>Braga</surname>
+        <date_birth>April 15, 1983</date_birth>
+        <place_birth> São Paulo, Brazil</place_birth>
+        <photos>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Alice_Braga_Premiere_of_Kill_Me_Three_Times_%28cropped%29.jpg/220px-Alice_Braga_Premiere_of_Kill_Me_Three_Times_%28cropped%29.jpg"></image>
+          <image url="https://www.usanetwork.com/sites/usanetwork/files/styles/629x720/public/2016/05/queen_cast_aliceBraga.jpg?itok=-1S4jn2t"></image>
+          <image url="https://blogdesuperheroes.es/wp-content/plugins/BdSGallery/BdSGaleria/55826.jpg"></image>
+        </photos>
+        <filmography>	I Am Legend, 	The New Mutants, 	The Shack</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Oscar al Mejor actor dramatico">
+        <actor_name>Will Smith</actor_name>
+        <date>2008</date>
+      </award>
+
+      <award name="Mejor banda sonora">
+        <actor_name>James Newton Howard</actor_name>
+        <date>2008</date>
+      </award>
+
+      <award name="Mejor Pelicula Dramatica">
+        <date>2008</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="Dunquerque">
+    <genre>History</genre>
+    <director>
+      <name>Christopher</name>
+      <surname>Nolan</surname>
+      <born>London, England</born>
+    </director>
+    <filming_date>2016</filming_date>
+    <duration>106 min</duration>
+    <film_production>
+      <name>Syncopy Inc</name>
+      <main_employees>
+        <employee>
+          <name>Christopher</name>
+          <surname>Nolan</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Emma</name>
+          <surname>Thomas</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army, and evacuated during a fierce battle in World War II.</summary>
+    <actors>
+      <actor name="Fionn">
+        <surname>Whitehead</surname>
+        <date_birth>July 18, 1997</date_birth>
+        <place_birth>London, England</place_birth>
+        <photos>
+          <image url="https://imgix.bustle.com/uploads/image/2018/12/31/04c8eefa-eace-48d9-aec3-aaeed3d1f61d-fio.jpg?w=970&amp;h=546&amp;fit=cropcrop=faces&amp;auto=format&amp;q=70"></image>
+          <image url="https://media.fstatic.com/bFLMp-jjrYSy7fZKx_KRuEFL8GU=/full-fit-in/290x478/media/artists/avatar/2017/12/fionn-whitehead_a425438_a5qHVGm.jpg"></image>
+          <image url="http://br.web.img2.acsta.net/c_215_290/pictures/17/07/17/11/15/097163.jpg"></image>
+        </photos>
+        <filmography>Black Mirror: Bandersnatch, Queers, Dunkirk</filmography>
+      </actor>
+
+      <actor name="Tom">
+        <surname>Glynn-Carney</surname>
+        <date_birth>7 February 1995</date_birth>
+        <place_birth>Manchester, England</place_birth>
+        <photos>
+          <image url="https://m.media-amazon.com/images/M/MV5BZDc5NWM3MDItMTRmZC00MjhlLTkyYTQtZTU5YmM0MTM0MzU3XkEyXkFqcGdeQXVyMjI5MDU5MTM@._V1_UX214_CR0,0,214,317_AL_.jpg"></image>
+          <image url="https://assets.mubi.com/images/cast_member/502192/image-original.jpg?1500776260"></image>
+          <image url="https://cdn.revistagq.com/uploads/images/thumbs/es/gq/4/s/2017/29/tom_glynn_carney_actor_dunkirk_traje_gq_business_218746556_667x1000.jpg"></image>
+        </photos>
+        <filmography>The King, Tolkien, Dunkirk</filmography>
+      </actor>
+
+      <actor name="Jack">
+        <surname>Lowden</surname>
+        <date_birth>2 June 1990</date_birth>
+        <place_birth>Chelmsford, Essex, England</place_birth>
+        <photos>
+          <image url="https://cdn.thegentlemansjournal.com/wp-content/uploads/2018/11/Jack-Lowden-HEADER-1800x756-c-center.jpg"></image>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Jack_Lowden.jpg/220px-Jack_Lowden.jpg"></image>
+          <image url="https://ichef.bbci.co.uk/news/660/cpsprodpb/BFAB/production/_104176094_lowden.jpg"></image>
+        </photos>
+        <filmography>Ghosts, Dunkirk, Fonzo</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Oscar a Mejor edicion">
+        <actor_name>Lee Smith</actor_name>
+        <date>2018</date>
+      </award>
+
+      <award name="Oscar a mejor banda sonora">
+        <actor_name>Richard King, Alex Gibson </actor_name>
+        <date>2018</date>
+      </award>
+
+      <award name="Oscar a mejor mezcla">
+        <actor_name>Gregg Landaker, Gary Rizzo, Mark Weingarten</actor_name>
+        <date>2018</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="Corazones de acero">
+    <genre>History</genre>
+    <director>
+      <name>David</name>
+      <surname>Ayer</surname>
+      <born> Champaign, Illinois, USA</born>
+    </director>
+    <filming_date>2013</filming_date>
+    <duration>134 min</duration>
+    <film_production>
+      <name>QED International</name>
+      <main_employees>
+        <employee>
+          <name>Bill</name>
+          <surname>Block</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>John</name>
+          <surname>Lesher</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Alex</name>
+          <surname>Ott</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Ethan</name>
+          <surname>Smith</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>A grizzled tank commander makes tough decisions as he and his crew fight their way across Germany in April, 1945.</summary>
+    <actors>
+      <actor name="Brad">
+        <surname>Pitt</surname>
+        <date_birth> December 18, 1963</date_birth>
+        <place_birth>Shawnee, Oklahoma, USA</place_birth>
+        <photos>
+          <image url="https://cdn.revistagq.com/uploads/images/thumbs/201401/brad_pitt_9726_645x485.jpg"></image>
+          <image url="https://akns-images.eonline.com/eol_images/Entire_Site/2018215/rs_634x1024-180315181403-634-Brad-Pitt-JR-031518.jpg?fit=inside|900:auto&amp;output-quality=90"></image>
+          <image url="https://media.lmneuquen.com/adjuntos/195/imagenes/002/580/0002580645.jpg"></image>
+        </photos>
+        <filmography>Deadpool 2, Voyage of Time, Fury</filmography>
+      </actor>
+
+      <actor name="Logan">
+        <surname>Lerman</surname>
+        <date_birth>January 19, 1992</date_birth>
+        <place_birth>Beverly Hills, California, USA</place_birth>
+        <photos>
+          <image url="https://www.famousbirthdays.com/headshots/logan-lerman-1.jpg"></image>
+          <image url="https://www.hypable.com/wp-content/uploads/2014/04/Percy-Jackson-Sea-of-Monsters-Logan-Lerman.jpg"></image>
+          <image url="http://spotlightreport.net/wp-content/uploads/2015/01/logan-lerman-fury-interview.jpg"></image>
+        </photos>
+        <filmography>Percy Jackson: The Lightning Thief, Noé, Fury</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Editor del año">
+        <actor_name>Jay Cassidy, Dody Dorn</actor_name>
+        <date>2013</date>
+      </award>
+
+      <award name="Mejor reseña">
+        <date>2013</date>
+      </award>
+
+      <award name="Mejor pelicula de Estados Unidos">
+        <date>2013</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="PD Te quiero">
+    <genre>Romance</genre>
+    <director>
+      <name>Richard</name>
+      <surname>LaGravenese</surname>
+      <born>October 30, 1959</born>
+    </director>
+    <filming_date>2006</filming_date>
+    <duration>125 min</duration>
+    <film_production>
+      <name>Alcon Entertainment</name>
+      <main_employees>
+        <employee>
+          <name>Wendy</name>
+          <surname>Finerman</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Broderick</name>
+          <surname>Johnson</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Andrew</name>
+          <surname>Kosove</surname>
+          <position>ProducerMolly Smith</position>
+        </employee>
+        <employee>
+          <name>Molly</name>
+          <surname>Smith</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>A young widow discovers that her late husband has left her 10 messages intended to help ease her pain and start a new life.</summary>
+    <actors>
+      <actor name="Hilary">
+        <surname>Swank</surname>
+        <date_birth>July 30, 1974</date_birth>
+        <place_birth>Lincoln, Nebraska, U.S.</place_birth>
+        <photos>
+          <image url="https://static01.diariodenavarra.es/uploads/imagenes/bajacalidad/2015/11/11/_mte4mdazndewnzuymzqxnte4_5ab83249.jpg?8ee58a967d14bfb8e70b4bfa0bf5e2fc"></image>
+          <image url="https://www.eltelegrafo.com.ec/media/k2/items/cache/8f1dedb38e34b099951fbb95a03aada7_XL.jpg"></image>
+          <image url="https://img.ecartelera.com/noticias/fotos/32800/32831/1.jpg"></image>
+        </photos>
+        <filmography>New Year's Eve, Amelia, P.S. I Love You</filmography>
+      </actor>
+
+      <actor name="Gerard">
+        <surname>Butler</surname>
+        <date_birth>13 November 1969</date_birth>
+        <place_birth>Paisley, Renfrewshire, Scotland</place_birth>
+        <photos>
+          <image url="http://es.web.img3.acsta.net/pictures/15/06/29/09/07/244919.jpg"></image>
+          <image url="https://www.codigounico.com/wp-content/uploads/sites/2/2016/06/gerard-butler-mi-tiempo-de-juergas-ya-paso-ahora-a-la-cama-voy-a-leer-2-e1465815373699.jpg"></image>
+          <image url="https://www.guiadelocio.com/var/guiadelocio.com/storage/images/cine/personajes/gerard-butler/6306607-30-esl-ES/gerard-butler.jpg"></image>
+        </photos>
+        <filmography>London Has Fallen, Olympus Has Fallen, P.S. I Love You</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Mejor pelicula para Irlanda">
+        <actor_name>Hilary Swank</actor_name>
+        <date>2008</date>
+      </award>
+
+      <award name="Mejor Actriz">
+        <actor_name>Hilary Swank</actor_name>
+        <date>2008</date>
+      </award>
+    </awards>
+  </film>
+
+  <film title ="Realmente amor">
+    <genre>Romance</genre>
+    <director>
+      <name>	Richard</name>
+      <surname>Curtis</surname>
+      <born>Wellington, New Zealand</born>
+    </director>
+    <filming_date>2001</filming_date>
+    <duration>136 min</duration>
+    <film_production>
+      <name>StudioCanal</name>
+      <main_employees>
+        <employee>
+          <name>Duncan</name>
+          <surname>Kenworthy</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Tim</name>
+          <surname>Bevan</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Eric</name>
+          <surname>Fellner</surname>
+          <position>Producer</position>
+        </employee>
+        <employee>
+          <name>Debra</name>
+          <surname>Hayward</surname>
+          <position>Producer</position>
+        </employee>
+      </main_employees>
+    </film_production>
+    <summary>Follows the lives of eight very different couples in dealing with their love lives in various loosely interrelated tales all set during a frantic month before Christmas in London, England.</summary>
+    <actors>
+      <actor name="Keira">
+        <surname>Knightley</surname>
+        <date_birth>26 March 1985</date_birth>
+        <place_birth>Teddington, London, England</place_birth>
+        <photos>
+          <image url="https://www.eluniversal.com.mx/sites/default/files/styles/f03-651x400/public/2019/05/03/keira_knightley.jpg?itok=pPOmg-ka"></image>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/KeiraKnightleyByAndreaRaffin2011.jpg/250px-KeiraKnightleyByAndreaRaffin2011.jpg"></image>
+          <image url="https://www.etonline.com/sites/default/files/images/2019-02/keira_knightley_gettyimages-1125712847_1280_0.jpg"></image>
+        </photos>
+        <filmography>Berlin, I Love You, The Imitation Game, Love Actually</filmography>
+      </actor>
+
+      <actor name="Hugh">
+        <surname>Grant</surname>
+        <date_birth>9 September 1960</date_birth>
+        <place_birth>Hammersmith, London, England</place_birth>
+        <photos>
+          <image url="https://ep01.epimg.net/elpais/imagenes/2018/05/16/gente/1526476316_695771_1526480404_miniatura_normal.jpg"></image>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Hugh_Grant_Brussels_%2708.jpg/170px-Hugh_Grant_Brussels_%2708.jpg"></image>
+          <image url="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Hugh_Grant_2014_crop.jpg/200px-Hugh_Grant_2014_crop.jpg"></image>
+        </photos>
+        <filmography>The Gentlemen, The Man from U.N.C.L.E., Love Actually</filmography>
+      </actor>
+
+    </actors>
+    <awards>
+      <award name="Premios BAFTA: Mejor actor de doblaje">
+        <actor_name>Bill Nighy</actor_name>
+        <date>2004</date>
+      </award>
+
+      <award name="Mejor actor revelacion">
+        <actor_name>Martine McCutcheon</actor_name>
+        <date>2004</date>
+      </award>
+    </awards>
+  </film>
+
+
+</films>

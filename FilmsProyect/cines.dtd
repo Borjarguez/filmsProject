@@ -1,0 +1,63 @@
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT cinemas (cinema)+>
+<!ATTLIST cinemas
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cinema (company,num_Pictures_Theatre,location,billboard)>
+<!ATTLIST cinema
+  xmlns CDATA #FIXED ''
+  name CDATA #REQUIRED>
+
+<!ELEMENT company (#PCDATA)>
+<!ATTLIST company
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT num_Pictures_Theatre (num_Regular_Pictures_Theatres,
+                                num_3D_Pictures_Theatres)>
+<!ATTLIST num_Pictures_Theatre
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT location (longitude,latitude)>
+<!ATTLIST location
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT billboard (available_Movies)>
+<!ATTLIST billboard
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT num_Regular_Pictures_Theatres (#PCDATA)>
+<!ATTLIST num_Regular_Pictures_Theatres
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT num_3D_Pictures_Theatres (#PCDATA)>
+<!ATTLIST num_3D_Pictures_Theatres
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT longitude (#PCDATA)>
+<!ATTLIST longitude
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT latitude (#PCDATA)>
+<!ATTLIST latitude
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT available_Movies (title,age_Rating,schedule)>
+<!ATTLIST available_Movies
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT title (#PCDATA)>
+<!ATTLIST title
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT age_Rating (#PCDATA)>
+<!ATTLIST age_Rating
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT schedule (hour)+>
+<!ATTLIST schedule
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT hour (#PCDATA)>
+<!ATTLIST hour
+  xmlns CDATA #FIXED ''>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="films">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="film"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="film">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="genre"/>
+        <xs:element ref="director"/>
+        <xs:element ref="filming_date"/>
+        <xs:element ref="duration"/>
+        <xs:element ref="film_production"/>
+        <xs:choice>
+          <xs:element ref="resumen"/>
+          <xs:element ref="summary"/>
+        </xs:choice>
+        <xs:element ref="actors"/>
+        <xs:element ref="awards"/>
+      </xs:sequence>
+      <xs:attribute name="title" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="genre" type="xs:NCName"/>
+  <xs:element name="director">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="surname"/>
+        <xs:element ref="born"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="born" type="xs:string"/>
+  <xs:element name="filming_date" type="xs:string"/>
+  <xs:element name="duration" type="xs:string"/>
+  <xs:element name="film_production">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="main_employees"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="main_employees">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element maxOccurs="unbounded" ref="employee"/>
+        <xs:sequence>
+          <xs:element ref="name"/>
+          <xs:element ref="surname"/>
+          <xs:element ref="position"/>
+        </xs:sequence>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="employee">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="surname"/>
+        <xs:element ref="position"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="resumen" type="xs:string"/>
+  <xs:element name="summary" type="xs:string"/>
+  <xs:element name="actors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="actor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="awards">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="award"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="award">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" ref="actor"/>
+        <xs:element ref="date"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date" type="xs:string"/>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="surname" type="xs:string"/>
+  <xs:element name="position" type="xs:string"/>
+  <xs:element name="actor">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="surname"/>
+        <xs:element ref="date_birth"/>
+        <xs:element ref="filmography"/>
+        <xs:element ref="photos"/>
+        <xs:element ref="place_birth"/>
+      </xs:choice>
+      <xs:attribute name="name" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="date_birth" type="xs:string"/>
+  <xs:element name="filmography" type="xs:string"/>
+  <xs:element name="photos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="image"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="image">
+    <xs:complexType>
+      <xs:attribute name="url" use="required" type="xs:anyURI"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="place_birth" type="xs:string"/>
+</xs:schema>

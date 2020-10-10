@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="cinemas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="cinema"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="cinema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="company"/>
+        <xs:element ref="num_Pictures_Theatre"/>
+        <xs:element ref="location"/>
+        <xs:element ref="billboard"/>
+      </xs:sequence>
+      <xs:attribute name="name" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="company" type="xs:NCName"/>
+  <xs:element name="num_Pictures_Theatre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="num_Regular_Pictures_Theatres"/>
+        <xs:element ref="num_3D_Pictures_Theatres"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="num_Regular_Pictures_Theatres" type="xs:integer"/>
+  <xs:element name="num_3D_Pictures_Theatres" type="xs:integer"/>
+  <xs:element name="location">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="longitude"/>
+        <xs:element ref="latitude"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="longitude" type="xs:decimal"/>
+  <xs:element name="latitude" type="xs:decimal"/>
+  <xs:element name="billboard">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="available_Movies"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="available_Movies">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="title"/>
+        <xs:element ref="age_Rating"/>
+        <xs:element ref="schedule"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="title" type="xs:string"/>
+  <xs:element name="age_Rating" type="xs:integer"/>
+  <xs:element name="schedule">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="hour"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hour" type="xs:NMTOKEN"/>
+</xs:schema>
